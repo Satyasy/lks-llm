@@ -11,7 +11,7 @@
 
     - name: Mount EFS
       mount:
-        src: fs-0340aa6d65bcf8f59.efs.us-east-1.amazonaws.com:/
+        src: fs-079df2670197f2295.efs.ap-southeast-1.amazonaws.com:/
         path: /share
         fstype: nfs4
         opts: _netdev
