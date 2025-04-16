@@ -130,7 +130,7 @@
                 - "11434:11434"
               volumes:
                 - {{ llm_data }}:/root/.ollama
-                - {{ llm_data }}:/tmp
+                - {{ llm_tmp }}:/tmp
               environment:
                 - OLLAMA_CONFIG=/var/lib/ollama/config.yaml
         dest: "{{ docker_compose_dir }}/docker-compose.yml"
