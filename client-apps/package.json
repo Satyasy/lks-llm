@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "^0.0.33",
+    "@aws-amplify/cli": "^14.2.5",
     "@aws-sdk/client-cognito-identity-provider": "^3.616.0",
     "@hookform/resolvers": "^3.9.0",
     "@langchain/community": "^0.2.13",
